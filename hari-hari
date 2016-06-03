@@ -1,0 +1,48 @@
+// Hari-hari
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+  int angka;
+  
+  cout << " Menentukan Hari " << endl ;
+  cout << "1=Senin      4=Kamis"<<endl;
+  cout << "2=Selasa     5=Jumat"<<endl;
+  cout << "3=Rabu       6=Sabtu"<<endl;
+  cout << "             7=Minggu" <<endl <<endl;
+  cout << "Masukkan angka   :";
+  cin >> angka;
+   
+  switch (angka)
+  {
+case 1 :
+cout <<"Hari Senin" << endl;
+break;
+case 2 :
+cout <<"Hari Selasa" << endl;
+break;
+case 3 :
+cout <<"Hari Rabu" << endl;
+break;
+case 4 :
+cout <<"Hari Kamis" << endl;
+break;
+case 5 :
+cout <<"Hari Jumat" << endl;
+break;
+case 6 :
+cout <<"Hari Sabtu" << endl;
+break;
+case 7 :
+cout <<"Hari Minggu" << endl;
+break;
+default:
+cout <<"Kode hari salah";
+}
+  
+  
+  return 0;
+}
