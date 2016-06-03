@@ -1,0 +1,94 @@
+// Hitung gaji
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+    int gol, gajipokok, tahunmasuk, lamakerja, incentive, totalgaji;
+    string nama;
+    
+    cout << "Perhitungan gaji karyawan" << endl << "--------------" << endl;
+    cout << "Masukkan nama            =";
+    getline (cin, nama);
+    
+    cout << "Masukkan Golongan        =";
+    cin >> gol;
+    
+     cout << "Masukkan Tahun Masuk    =";
+    cin >> tahunmasuk;
+    
+  if (gol = 1)
+  {gajipokok = 500000;}
+else if (gol = 2)
+{gajipokok = 750000;}
+else if (gol = 3)
+{gajipokok = 1000000;}
+else
+{gajipokok = 1500000;}
+
+
+lamakerja = 2016 - tahunmasuk;
+
+ if (lamakerja < 1)
+  {incentive = 250000;}
+else if (lamakerja >= 1 & lamakerja <= 2)
+{incentive = 500000;}
+else if (lamakerja >= 3 & lamakerja <= 4)
+{incentive = 1000000;}
+else
+{incentive = 1500000;}
+
+totalgaji = gajipokok + incentive;
+
+cout << "Total Gaji anda           =" << totalgaji;
+
+return 0;
+}
+// Hitung gaji
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+    int gol, gajipokok, tahunmasuk, lamakerja, incentive, totalgaji;
+    string nama;
+    
+    cout << "Perhitungan gaji karyawan" << endl << "--------------" << endl;
+    cout << "Masukkan nama            =";
+    getline (cin, nama);
+    
+    cout << "Masukkan Golongan        =";
+    cin >> gol;
+    
+     cout << "Masukkan Tahun Masuk    =";
+    cin >> tahunmasuk;
+    
+  if (gol = 1)
+  {gajipokok = 500000;}
+else if (gol = 2)
+{gajipokok = 750000;}
+else if (gol = 3)
+{gajipokok = 1000000;}
+else
+{gajipokok = 1500000;}
+
+
+lamakerja = 2016 - tahunmasuk;
+
+ if (lamakerja < 1)
+  {incentive = 250000;}
+else if (lamakerja >= 1 & lamakerja <= 2)
+{incentive = 500000;}
+else if (lamakerja >= 3 & lamakerja <= 4)
+{incentive = 1000000;}
+else
+{incentive = 1500000;}
+
+totalgaji = gajipokok + incentive;
+
+cout << "Total Gaji anda           =" << totalgaji;
+
+return 0;
+}
